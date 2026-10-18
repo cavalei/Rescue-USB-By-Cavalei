@@ -1,0 +1,43 @@
+# 个人文件夹与大体量二进制
+_个人/
+System Volume Information/
+$RECYCLE.BIN/
+
+# 系统镜像 / PE 镜像（体积大且不可再分发）
+*.iso
+*.img
+*.wim
+*.esd
+*.vhd
+*.vhdx
+
+# 压缩包与可执行文件（本仓库只放脚本）
+*.7z
+*.rar
+*.zip
+*.exe
+*.msi
+*.dll
+*.sys
+
+# 驱动与台账（本地生成，不入库）
+00_说明/哈希台账.csv
+03_驱动/
+04_运行库/
+05_磁盘数据/
+06_杀毒排查/
+07_系统修复/
+08_便携工具/
+09_硬件检测/
+01_PE/
+02_系统镜像/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
